@@ -1,6 +1,6 @@
 {% set name = "sqlalchemy-migrate" %}
-{% set version = "0.9.4" %}
-{% set sha256 = "b3a35ee95196d72483bf821f60a1e784d77da9d6baed5e6ccdaffbfa7e87cd8e" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "e68af5e3e0561f629d4eb23d9d0ea77d2649747f2eff37fd29aece74615ca251" %}
 
 package:
   name: {{ name|lower }}
@@ -13,6 +13,7 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
