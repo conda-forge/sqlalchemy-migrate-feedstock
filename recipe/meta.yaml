@@ -1,6 +1,6 @@
 {% set name = "sqlalchemy-migrate" %}
-{% set version = "0.11.0" %}
-{% set sha256 = "e68af5e3e0561f629d4eb23d9d0ea77d2649747f2eff37fd29aece74615ca251" %}
+{% set version = "0.12.0" %}
+{% set sha256 = "8cfada30bbcf79a83b3a2d1bcd637de7e1f43e390d54de33e4f3249fd9aacfae" %}
 
 package:
   name: {{ name|lower }}
