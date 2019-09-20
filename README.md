@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About sqlalchemy-migrate
 ========================
 
@@ -24,8 +20,15 @@ line as well as from inside python code.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sqlalchemy-migrate-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sqlalchemy-migrate-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4979&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sqlalchemy-migrate-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
