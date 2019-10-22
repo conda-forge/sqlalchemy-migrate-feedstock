@@ -1,5 +1,5 @@
 {% set name = "sqlalchemy-migrate" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8cfada30bbcf79a83b3a2d1bcd637de7e1f43e390d54de33e4f3249fd9aacfae
+  sha256: 0bc02e292a040ade5e35a01d3ea744119e1309cdddb704fdb99bac13236614f8
 
 build:
   number: 0
