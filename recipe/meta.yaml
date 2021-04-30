@@ -10,7 +10,7 @@ source:
   sha256: 0bc02e292a040ade5e35a01d3ea744119e1309cdddb704fdb99bac13236614f8
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -51,4 +51,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - mariusvniekerk
